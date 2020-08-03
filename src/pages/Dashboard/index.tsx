@@ -51,14 +51,14 @@ const Dashboard: React.FC = () => {
         <CardContainer>
           <Card>
             <header>
-              <p>Incomes</p>
+              <p>Entradas</p>
               <img src={income} alt="Income" />
             </header>
             <h1 data-testid="balance-income">{formatValue(balance.income)}</h1>
           </Card>
           <Card>
             <header>
-              <p>Outcomes</p>
+              <p>Saídas</p>
               <img src={outcome} alt="Outcome" />
             </header>
             <h1 data-testid="balance-outcome">
