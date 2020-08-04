@@ -40,7 +40,7 @@ const Dashboard: React.FC = () => {
       const transactionsFormatted = response.data.transactions.map(
         (transaction: Transaction) => ({
           ...transaction,
-          formattedVallue: formatValue(transaction.value),
+          formattedValue: formatValue(transaction.value),
           formattedDate: new Date(transaction.created_at).toLocaleDateString(
             'pt-br',
           ),
